@@ -1,0 +1,4 @@
+# Escaleta del Capítulo 5: Sangre de Asedio
+
+*   **Escena 1: El Fin del Reactor**
+    *   **Objetivo/Hito:** Alistair y Katherine, debilitados por la transfusión del capítulo anterior pero impulsados por la urgencia, se infiltran en la sala del mega-reactor Ares. Se enfrentan al comandante Kohler, quien los confronta armado con un sable hematoclasto pesado. Kohler inicia el proceso de drenaje masivo para cargar el cañón contra los suburbios. Katherine distrae e intenta neutralizar a Kohler en combate físico, a pesar de su debilidad por la transfusión. Alistair se arrastra hacia las calderas centrales de retorno y usa su hematoclasto de hielo para congelar y reventar las tuberías de presión, provocando un reflujo que sobrecarga el reactor y abre las cápsulas de los prisioneros. Kohler es derrotado, la fundición colapsa bajo una avalancha de vapor y escarcha, y los prisioneros escapan junto a Alistair y Katherine hacia los suburbios libres.
