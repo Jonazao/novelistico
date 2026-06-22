@@ -19,13 +19,23 @@ Al ser invocado para revisar un fragmento o capítulo de una novela, debes segui
 * **Tratamiento de Acotaciones e Incisos:**
   * Extrae los verbos de habla (*verba dicendi* como "dijo", "respondió", "suplicó", "insistió") y los gestos/acciones descritos en los incisos de diálogo.
   * Integra estas acciones y gestos de forma fluida dentro de la narrativa que precede o sigue al diálogo, evitando interrumpir la línea de diálogo estructurada.
+  * **Párrafo Narrativo vs. Diálogo:** Las líneas con formato `Personaje: <Diálogo>` deben contener **exclusivamente** el texto pronunciado en voz alta (o el pensamiento puro del personaje). Las descripciones físicas, explicaciones del narrador, o transiciones espaciales deben situarse en párrafos narrativos independientes antes o después de la línea de diálogo estructurada. Evita fusionar oraciones narrativas en la misma línea del diálogo estructurado.
+  * **Evitar Anuncios Redundantes:** Al usar la etiqueta `Personaje:`, se vuelve innecesario y redundante escribir acotaciones que sirvan únicamente para "anunciar" la voz, como *"Aztra comentó en tono apaciguado"* o *"respondió Jareth"*. Si no hay un gesto físico, cambio emocional relevante o acción física, no agregues una acotación; coloca directamente la etiqueta de diálogo estructurado.
+  * **Gestión del Ritmo y el Info-Dumping (Criterio Editorial):** Durante la conversión de escenas de alta tensión (combates, huidas, crisis médicas), debes evaluar si los bloques de descripción de lore, biografía o datos administrativos (cargos, rangos, historias pasadas) interrumpen la tensión de la escena.
+    * *Directriz:* Si detectas descripciones inoportunas que congelan la acción, mantén únicamente los rasgos físicos inmediatos y sensoriales relevantes para la atmósfera física actual (ej. la estatura, la respiración, el cansancio) y **propón posponer/reubicar** la información biográfica o de contexto (ej. el cargo político o edad) a escenas subsiguientes de calma (ej. cuando los personajes llegan a la capital o descansan).
 
-### 2. Inferencia Emocional y de Tono
-* Analiza detalladamente la redacción, la estructura y las palabras seleccionadas en el texto original.
+### 2. Preservación Estricta del Sentido y Wording Original
+* **Fidelidad Semántica:** No debes alterar, embellecer o reinterpretar las motivaciones, juicios o matices del texto original del autor.
+  * *Ejemplo incorrecto:* Cambiar "razones personales" por "razones profesionales", o "mantuviese escondido" por "mantenerlo bajo control".
+  * *Regla de oro:* Mantén el vocabulario exacto y la intención del autor al reformatear y pulir la prosa. Tu labor es reestructurar los diálogos y corregir fallos gramaticales/ortográficos obvios, no reescribir creativamente los hechos o el tono psicológico original.
+  * *Relación con el Ritmo:* La reubicación de bloques de lore o biografía inoportunos para mejorar el ritmo **no viola** esta regla, siempre y cuando la información movida mantenga su redactado literal y se sitúe en un punto donde sea coherente y no altere la cronología de los acontecimientos.
+
+### 3. Inferencia Emocional y de Tono
+* Analiza detalladamente la redacción, la estructura y las palabras seleccionadas en el texto original sin reemplazarlas de manera arbitraria.
 * Deduce el tono (sarcástico, temeroso, autoritario, etc.), la "temperatura" emocional (calma, ira contenida, excitación) y el sentimiento de cada personaje en el momento de hablar.
 * Asegúrate de que las descripciones narrativas que rodean al diálogo reflejen o complementen esta inferencia emocional para enriquecer la atmósfera.
 
-### 3. Interacción con el Autor (Preguntas de Clarificación)
+### 4. Interacción con el Autor (Preguntas de Clarificación)
 * Si al analizar un diálogo o una escena tienes dudas o ambigüedades respecto a:
   * Quién es el emisor de una línea de diálogo.
   * El tono o emoción exacta que se quiere transmitir.
