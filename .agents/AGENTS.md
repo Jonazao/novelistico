@@ -17,7 +17,7 @@ El agente interpretará comandos de una sola línea que comiencen con el prefijo
 *   **`!consistencia cap=[N] esc=[M]`** $\rightarrow$ Carga `verificador-consistencia` para el archivo `capitulos/capitulo_[N]/escena_[M]_final.md`.
 *   **`!wiki cap=[N] esc=[M]`** $\rightarrow$ Carga `wiki-novelas` para procesar `capitulos/capitulo_[N]/escena_[M]_final.md`.
 *   **`!bitacora cap=[N]`** $\rightarrow$ Carga `bitacora-novelas` para procesar todas las escenas finalizadas del capítulo `[N]`.
-*   **`!escaleta cap=[N]`** $\rightarrow$ Carga `redactor-novelas` en modo **Paso 1 (Escaleta)** para planificar el capítulo `[N]`.
+*   **`!escaleta cap=[N] (esc=[K])`** $\rightarrow$ Carga `redactor-novelas` en modo **Paso 1 (Escaleta)** para planificar el capítulo `[N]` con `[K]` escenas (si no se especifica `esc`, usar 5 escenas por defecto).
 *   **`!redactar cap=[N] esc=[M]`** $\rightarrow$ Carga `redactor-novelas` en modo **Paso 2 (Redacción)** para escribir la escena `[M]`.
 *   **`!prompt personaje=[Nombre]`** o **`lugar=[Nombre]`** $\rightarrow$ Carga `creador-prompts-visuales` para el asset indicado de la Wiki.
 *   **`!compilar`** $\rightarrow$ Carga `compilador-manuscrito` para generar `manuscrito_completo.md`.

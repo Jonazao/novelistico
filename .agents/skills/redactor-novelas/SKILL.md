@@ -13,6 +13,7 @@ Para mantener la calidad de la prosa y evitar divagaciones o incoherencias, sigu
 
 ### Paso 1: Generación de la Escaleta (Outline)
 Antes de redactar prosa extensa, lee los datos de la Wiki y la Bitácora y propón una **Escaleta de Escenas** cronológica para el capítulo `[N]`.
+*   **Número de escenas:** Genera el número de escenas especificado en el parámetro `esc=[K]`. Si no se provee este parámetro, genera **exactamente 5 escenas** por defecto.
 *   **Destino del archivo:** Escribe/actualiza la escaleta en `capitulos/capitulo_[N]/escaleta.md`.
 *   **Estructura:**
     ```markdown
