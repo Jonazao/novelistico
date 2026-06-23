@@ -56,7 +56,7 @@ Para acelerar tu interacción con el asistente y evitar escribir peticiones larg
 
 | Comando Corto | Acción que Ejecuta la IA |
 | :--- | :--- |
-| **`!escaleta cap=[N]`** | Genera la escaleta inicial del capítulo en `capitulos/capitulo_[N]/escaleta.md` |
+| **`!escaleta cap=[N] (esc=[K])`** | Genera la escaleta inicial del capítulo en `capitulos/capitulo_[N]/escaleta.md` con `[K]` escenas (5 por defecto si se omite `esc`) |
 | **`!redactar cap=[N] esc=[M]`** | Escribe en detalle la escena en `capitulos/capitulo_[N]/escena_[M]_final.md` |
 | **`!ritmo cap=[N] esc=[M]`** | Analiza la velocidad y pacing dramático en `capitulos/capitulo_[N]/escena_[M]_final.md` |
 | **`!consistencia cap=[N] esc=[M]`**| Audita la escena final contra el Lore de la Wiki en busca de plot holes |
