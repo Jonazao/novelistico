@@ -5,6 +5,10 @@ Este archivo contiene reglas y directrices de comportamiento para el agente dent
 ## Contexto Conceptual Raíz y Biblia de la Novela
 *   **Referencia Obligatoria:** El archivo `premisa_novela.md` ubicado en la raíz del workspace contiene las leyes físicas, la escala de poderes, la sinopsis general y las facciones iniciales de la obra.
 *   **Regla de Oro:** Siempre que realices lluvia de ideas (`inspirador-novelas`) o redactes prosa (`redactor-novelas`), lee y respeta estrictamente las limitaciones, tono y reglas descritas en `premisa_novela.md` para garantizar la coherencia conceptual del universo.
+*   **Separación Estricta de Entornos (Activo vs. Ejemplo):**
+    *   **Directorio Activo:** Toda la escritura, planificación, actualización de bitácoras, wiki y compilación de la historia activa de Orenz/Eizenbert debe realizarse exclusivamente en las carpetas y archivos ubicados en la raíz del proyecto (`capitulos/`, `wiki/`, `bitacora_historia.md`, `premisa_novela.md`, `manuscrito_completo.md`).
+    *   **Directorio de Ejemplo:** La carpeta `ejemplo/` contiene un ejercicio cerrado y simulado de otra obra ("Sangre y Hierro"). El agente **solo** debe consultarla como plantilla de formato o referencia técnica de cómo deben lucir los archivos resultantes. **Bajo ninguna circunstancia** se debe mezclar el lore, nombres de personajes, eventos u objetos de `ejemplo/` con la historia activa, ni escribir nuevas escenas o bitácoras dentro de `ejemplo/`.
+
 
 ## Sintaxis de Comandos de Atajo (Shortcuts)
 El agente interpretará comandos de una sola línea que comiencen con el prefijo `!` y cargará inmediatamente el Skill correspondiente, expandiendo de manera autónoma los argumentos a las rutas correctas:
