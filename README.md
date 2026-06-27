@@ -122,3 +122,16 @@ Dado que la escaleta se guarda físicamente en `capitulos/capitulo_[N]/escaleta.
 1.  Edita, añade o reescribe las descripciones de las escenas a tu gusto en formato Markdown.
 2.  Guarda el archivo.
 3.  Indica a la IA en el chat: *"Lee la escaleta modificada en capitulos/capitulo_[N]/escaleta.md y procede a redactar la Escena 1 en base a ella."*
+
+---
+
+## 7. Compilación Nativa de Capítulos y Manuscrito
+
+El repositorio incluye un script utilitario local (`compilar.js`) para consolidar la prosa sin necesidad de recurrir a la IA. Puedes ejecutar los siguientes comandos en tu terminal en la raíz del proyecto:
+
+*   **Compilar un capítulo específico:** 
+    `node compilar.js --cap=[N]` (ej. `node compilar.js --cap=1`)
+    Une todas las escenas del capítulo ordenadamente y genera `capitulos/capitulo_[N]/capitulo_[N]_completo.md`, extrayendo el título oficial desde su escaleta.
+*   **Compilar todo el manuscrito:**
+    `node compilar.js` o `node compilar.js --all`
+    Compila secuencialmente todos los capítulos disponibles del libro y los unifica en `manuscrito_completo.md` en la raíz del proyecto, generando una portada limpia con autor, fecha y tabla de contenidos dinámica.

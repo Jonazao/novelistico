@@ -31,10 +31,17 @@ Antes de redactar prosa extensa, lee los datos de la Wiki y la Bitácora y prop�
 
 ### Paso 2: Redacción Escena por Escena
 Una vez que el escritor apruebe o ajuste la escaleta para el capítulo `[N]`:
-1.  **Redacta únicamente la Primera Escena.** No escribas todo el capítulo de golpe.
+1.  **Redacta únicamente la escena actual (generalmente la primera escena pendiente).** No escribas todo el capítulo de golpe.
 2.  **Entrada de borrador (opcional):** Si el escritor aporta notas crudas, leelas desde `capitulos/capitulo_[N]/escena_[M]_borrador.txt`.
-3.  **Destino del archivo final:** Escribe la prosa literaria de la escena finalizada en `capitulos/capitulo_[N]/escena_[M]_final.md`.
-4.  Mantén una prosa literaria rica, inmersiva, detallada y en la persona narrativa adecuada.
-5.  **Aplica el formato de diálogos estructurados:** Todos los diálogos que ocurran en la escena deben usar el formato `Personaje: <Diálogo>` de `analizador-novelas` (sin guiones `—`).
-6.  **Consistencia de Lore:** Verifica que los rasgos visuales de los personajes y el estado de los lugares coincidan con lo registrado en la carpeta `/wiki/`.
-7.  Al finalizar la redacción de la escena, solicita al escritor comentarios o su aprobación para proceder con la redacción de la siguiente escena.
+3.  **Generación de Prosa Inicial:** Redacta un borrador inicial de la prosa manteniendo un estilo literario rico, inmersiva, detallado, en la persona narrativa adecuada y aplicando el formato de diálogos estructurados `Personaje: <Diálogo>` de `analizador-novelas` (sin guiones `—`).
+4.  **Bucle Automático de Control de Calidad:**
+    *   **Filtro 1: Auditoría de Consistencia:** Ejecuta mentalmente el Skill `verificador-consistencia` sobre la prosa generada. Escanea la carpeta `wiki/` y la bitácora anterior. Si se detectan inconsistencias (`[ALERTA DETECTADA]`), reescribe y corrige de inmediato los fragmentos afectados en la prosa.
+    *   **Filtro 2: Auditoría de Ritmo:** Ejecuta mentalmente el Skill `analizador-ritmo` sobre la prosa y clasifica el pacing:
+        *   *Ritmo Malo o Medio (con grandes valles o info-dumping):* Reescribe de forma autónoma la prosa para optimizar la tensión dramática, balancear diálogos/acciones u acortar/alargar oraciones basándote en las sugerencias editoriales.
+        *   *Ritmo Aceptablemente Bueno:* No realices cambios a la prosa y conserva el texto.
+5.  **Destino del archivo final:** Escribe la prosa literaria final (con todas las autocorrecciones aplicadas) en `capitulos/capitulo_[N]/escena_[M]_final.md`.
+6.  **Presentación al escritor:** Presenta el texto de la escena finalizada y añade a continuación una sección estructurada de **Control de Calidad Realizado**:
+    *   **Inconsistencias de Lore:** Detalla si se detectó alguna y cómo se autocorrigió (o indica *"Ninguna detectada. Continuidad OK"*).
+    *   **Ritmo Dramático:** Indica la clasificación de ritmo inicial y si se requirió autocorrección. Llista las sugerencias editoriales resultantes (especialmente las pendientes para que las evalúe el escritor).
+7.  Al finalizar, solicita al escritor comentarios o su aprobación para proceder con la redacción de la siguiente escena.
+
