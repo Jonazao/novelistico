@@ -12,4 +12,4 @@
 - **Distribución Espacial / Distribución Táctica:** Una nave central de techos arqueados muy altos sostenida por gruesas columnas de mármol. Cuenta con un santuario en el ábside donde se ubica el altar principal y el púlpito del clero.
 
 ## Evolución y Estado Cronológico
-- **[Capítulo 1 / Misión 5]:** El escuadrón se infiltra a través de un conducto de ventilación tras desactivar un glifo. Son emboscados por Uriel. Tras el combate de Orenz forzando su maná de destrucción oscura, las columnas se fracturan y la cúpula colapsa, dejando la catedral **en ruinas y semidestruida**.
+- **[Capítulo 1 / Misión 5]:** El escuadrón se infiltra a través de un conducto de ventilación tras desactivar un glifo. Son emboscados por Uriel. Tras el combate de Orenz forzando su maná de destrucción oscura, las columnas de mármol quedan severamente agrietadas con hendiduras calcinadas, las losas quemadas y las vidrieras de la cúpula destrozadas, comprometiendo la estabilidad de la estructura y dejando la catedral abandonada en ruinas.
