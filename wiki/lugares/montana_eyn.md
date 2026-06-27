@@ -1,10 +1,16 @@
 # Ficha de Lugar: Montaña Eyn
 
-## Atributos Visuales y Ambientales
-- **Tipo:** Entorno montañoso natural con senderos rocosos de descenso comercial y rural.
-- **El Manantial y la Cascada Violeta:** La salida de los túneles subterráneos de escape desemboca directamente en un gran manantial natural alimentado por una potente cascada de aguas de coloración violeta.
-- **La Morada de Bubu:** Ubicada al este del sendero principal de descenso. Se compone de un huerto de calabazas y una modesta cabaña o morada rural de madera y piedra, rodeada de naturaleza y musgo húmedo. El interior de la cabaña es rústico, con frascos de remedios, hierbas y un ambiente impregnado de esencias curativas.
-- **Clima:** Fresco y húmedo, característico de una mañana de primavera.
+## Datos Conceptuales
+- **Ubicación Geográfica:** Zona montañosa rural y neutral, en las proximidades del País 7.
+- **Tipo de Terreno:** Boscoso y escarpado, con manantiales y túneles naturales.
+- **Jurisdicción/Facción:** Independiente.
+
+## Atributos Visuales y Ambientales (Guía de Arte)
+- **Arquitectura y Estilo:** Cabaña rústica y modesta de piedra y troncos de madera tosca de pino, cubierta de paja y musgo húmedo en las juntas. Cuenta con un huerto de calabazas silvestres vallado de forma precaria al frente.
+- **Atmósfera y Clima:** Clima fresco, húmedo y primaveral. El aire es puro con olores herbáceos a pino, tierra mojada y a las infusiones que hierven dentro de la morada de Bubu.
+- **Iluminación y Paleta de Colores:** Luz diurna filtrada por el follaje espeso del bosque. Paleta cromática dominada por verdes intensos de vegetación, marrón tierra y el violeta brillante de la cascada y manantial que alimentan los túneles subterráneos.
+- **Distribución Espacial / Distribución Táctica:** La salida de los túneles de Melom desemboca detrás de la cortina de agua de la cascada. Un sendero empinado de rocas húmedas desciende hacia el valle, con la cabaña de Bubu oculta en un desvío hacia el este.
+- **La Cascada Violeta:** Salto de agua de gran caudal cuyas aguas presentan una coloración violeta translúcida debido a vetas minerales y maná silvestre en las nacientes de la montaña.
 
 ## Evolución y Estado Cronológico
-- **[Capítulo 0 / Prólogo]:** El equipo de operaciones especiales de Aztra sale a través de la cascada violeta de la montaña usando la protección defensiva de Leyn. Se desvían hacia el huerto de calabazas para tratar de urgencia a Jareth Reynolds en la cabaña de Bubu.
+- **[Capítulo 0 / Prólogo]:** Escenario de escape del escuadrón. Leyn amortigua la caída por la cascada. Jareth es operado de urgencia en la cabaña de Bubu usando cataplasma con ectoplasma.

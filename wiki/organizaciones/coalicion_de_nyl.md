@@ -1,9 +1,19 @@
 # Ficha de Organización: Coalición de Nyl
 
-## Atributos Visuales e Identidad
-- **Tipo:** Región federada de gran relevancia dentro del País 4.
-- **Identidad:** Potencia caracterizada por su alta diplomacia y avanzado desarrollo tecnológico. Posee una estructura monárquica regional gobernada por un rey local y su descendencia.
-- **Sede Principal:** Ciudad capital de Nyl (mencionada como el hogar del príncipe fallecido).
+## Datos Conceptuales
+- **Tipo:** Región federada y monarquía constitucional autónoma.
+- **Sede Principal:** Ciudad de Nyl (Confederación del País 4).
+- **Líderes Conocidos:** El Rey de Nyl.
+
+## Identidad Visual y Emblemas (Guía de Arte)
+- **Emblema y Símbolos:** Engranajes y líneas de maná cruzadas grabadas en placas celestes.
+- **Colores Oficiales y Ropajes:** Uniformes tácticos en tonos gris claro y blanco pulido con detalles decorativos de luz celeste.
+- **Firma de Maná Colectiva / Tecnología:** Avanzado desarrollo en cibernética rúnica y automatización. Destacan sus autómatas arácnidos espías de metal brillante y sus sistemas de minas de presión terrestre con firma celeste.
+
+## Miembros Clave
+- El difunto príncipe de Nyl.
 
 ## Evolución y Estado Cronológico
-- **[Capítulo 0 / Prólogo]:** Su príncipe heredero fallece accidentalmente durante una visita a la planta generadora de Melom cuando esta es asediada y saboteada por la unidad del País 7. La muerte del heredero es el detonante macro de la crisis diplomática (Incidente detonante / Hito 1 de la línea temporal) que empuja al País 4 y al País 7 a una posible contienda armada.
+- **[Capítulo 0 / Prólogo]:** El príncipe muere accidentalmente en la explosión de la planta de Melom iniciada por el escuadrón de Aztra, desatando la peor crisis geopolítica de la frontera.
+- **[Capítulo 1 / Misión 1]:** Despliega espías autómatas y minas en el Bosque de Agujas fronterizo.
+- **[Capítulo 1 / Misión 3]:** Contrabandea cargamentos inestables de componentes mecánicos a través de la Garganta del Cuervo para armar defensas fronterizas, custodiados por el mago Drakos.

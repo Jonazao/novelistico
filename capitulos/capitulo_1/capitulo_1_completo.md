@@ -1,14 +1,3 @@
-# Manacraft
-**Autor:** Jonazao & Antigravity  
-**Fecha de Compilación:** 27 de junio de 2026  
-
----
-
-## Tabla de Contenidos
-1. [Capítulo 1 - Meritocracia y Fronteras](#capitulo-1---meritocracia-y-fronteras)
-
----
-
 # Capítulo 1 - Meritocracia y Fronteras
 
 La fría brisa del amanecer recorría el patio de armas de la Torre Principal, silbando entre las grietas de la antigua piedra gris y agitando perezosamente las banderas del País 7. El cielo sobre Eizenbert se teñía de tonos gélidos, un degradado de azul plomizo y naranja pálido que anunciaba una mañana típica de primavera en la capital. Tras los muros fortificados, los primeros ruidos de la ciudad cónica comenzaban a despertar, pero en aquel patio pavimentado solo reinaba un silencio solemne, interrumpido únicamente por el crujido del cuero y las respiraciones contenidas.

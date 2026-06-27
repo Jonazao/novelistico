@@ -1,11 +1,16 @@
 # Ficha de Lugar: Eizenbert
 
-## Atributos Visuales y Ambientales
-- **Tipo:** Ciudad capital del País 7.
-- **Estructura Arquitectónica:** Construida en forma de cono o pirámide escalonada. Está rodeada por colosales murallas externas con aspecto de castillo gigante. En la cúspide del cono se alza la **Torre Principal**, que sirve como sede administrativa y militar.
-- **La Torre Principal:** De aspecto exterior gótico clásico, asemejándose a edificios antiguos de ciencia ficción. Su interior es sumamente moderno, con acabados sobrios de madera y metal similares a una gran librería. Alberga la sala de juntas del Consejo y el centro de operaciones.
-- **Defensas:** Entrada principal protegida por una gran barrera o campo mágico invisible que puede ser disuelto por los guardias en turno.
-- **Modelo Social:** Estructura urbana no segregada por clases sociales (comunitaria/mérito). Los anillos exteriores tienen la misma relevancia física y de mantenimiento que los interiores. Los ciudadanos con mayor habilidad mágica realizan los trabajos más demandantes. Las penas por delitos graves (robo, asesinato, violación) implican la destrucción de las válvulas mágicas y el destierro definitivo.
+## Datos Conceptuales
+- **Ubicación Geográfica:** País 7 (Región Central).
+- **Tipo de Terreno:** Elevación cónica rocosa y fortificada.
+- **Jurisdicción/Facción:** Consejo Superior de Eizenbert (País 7).
+
+## Atributos Visuales y Ambientales (Guía de Arte)
+- **Arquitectura y Estilo:** Ciudad capital construida en forma de cono o pirámide escalonada gigante. Está rodeada por colosales murallas exteriores de aspecto gótico militar y tecnológico. En la cúspide del cono se alza la **Torre Principal**, que sirve como sede administrativa y militar, con un exterior de gótico clásico reminiscente de edificaciones de ciencia ficción antigua, e interiores modernos con acabados sobrios de caoba, metal pulido e hileras de libros.
+- **Atmósfera y Clima:** Aire fresco, seco y ventoso en las zonas superiores. Atmósfera ordenada y silenciosa que denota disciplina civil.
+- **Iluminación y Paleta de Colores:** Luz diurna fría y natural. Paleta cromática dominada por el gris ceniza de la piedra, el azul cobalto de los estandartes militares y los destellos dorados de las runas defensivas.
+- **Distribución Espacial / Distribución Táctica:** Acceso controlado mediante anillos concéntricos escalonados. La entrada principal de las murallas está protegida por un inmenso campo mágico o barrera invisible que bloquea el paso físico y es gestionado por la guardia de turno.
 
 ## Evolución y Estado Cronológico
-- **[Capítulo 0 / Prólogo]:** El equipo de operaciones especiales de Aztra regresa a Eizenbert tras infiltrarse y destruir la planta de Melom. Pasan la barrera de seguridad de la entrada, compran pay de manzana con queso salado en una panadería local y se dirigen a la Torre Principal para presentarse ante el Consejo en la sala de juntas del primer piso.
+- **[Capítulo 0 / Prólogo]:** Escenario del retorno del escuadrón tras Melom. Cruza la barrera de seguridad de civil. En sus calles comerciales se ubica la panadería que vende el pay de manzana con queso salado y la taberna "El Yunque de Latón" donde se celebra en el epílogo del Capítulo 1.
+- **[Capítulo 1 / Epílogo]:** El Consejo Superior firma en la Torre Principal el decreto de restitución de cargos y anulación de la suspensión del escuadrón de Aztra.
