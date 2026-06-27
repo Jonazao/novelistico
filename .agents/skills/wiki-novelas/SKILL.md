@@ -7,6 +7,10 @@ description: Lee un capítulo o texto narrativo y genera o actualiza un registro
 
 Este Skill es responsable de extraer, estructurar y mantener consistente la información del universo narrativo (Wiki) para facilitar la posterior generación de assets visuales (imágenes) y asegurar la consistencia temporal de la historia.
 
+## Pre-requisitos de Ejecución (Obligatorio)
+*   **Capítulo Consolidado Existente:** Al invocar el comando `!wiki cap=[N]` o procesar la wiki de un capítulo, es un **requisito obligatorio** que el archivo consolidado `capitulos/capitulo_[N]/capitulo_[N]_completo.md` exista físicamente y esté actualizado.
+*   **Control de Errores:** Si el archivo consolidado del capítulo no existe, el asistente **no debe realizar ninguna acción de actualización de Wiki ni de índice**. Debe arrojar un Error explícito al escritor indicándole que hace falta compilar el capítulo completo previamente, sugiriéndole ejecutar primero el script utilitario: `node compilar.js --cap=[N]` (o el comando de atajo `!compilar`).
+
 ## Organización de Archivos de la Wiki (Rutero del Workspace)
 
 El contenido debe persistirse de forma modular en archivos individuales y minúsculas bajo la carpeta `wiki/` del workspace:
