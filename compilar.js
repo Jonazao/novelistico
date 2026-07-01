@@ -11,6 +11,9 @@ const rootDir = __dirname;
 const capitulosDir = path.join(rootDir, 'capitulos');
 
 function getChapterTitle(capNum) {
+    if (capNum === 0) {
+        return 'Prólogo';
+    }
     const escaletaPath = path.join(capitulosDir, `capitulo_${capNum}`, 'escaleta.md');
     if (fs.existsSync(escaletaPath)) {
         try {
@@ -39,7 +42,11 @@ function cleanProse(text) {
     });
     
     // Join and trim excessive double spacing at the beginning and end
-    return lines.join('\n').trim();
+    let joined = lines.join('\n').trim();
+    if (joined.startsWith('#')) {
+        joined = joined.replace(/^#\s+.*(?:\r?\n|$)/, '').trim();
+    }
+    return joined;
 }
 
 function compileChapter(capNum) {
@@ -51,17 +58,22 @@ function compileChapter(capNum) {
 
     // Read all files in the folder
     const files = fs.readdirSync(capFolder);
-    // Filter escena_*_final.md files
+    // Filter escena_*_final.md files or prologo_final.md
     const sceneFiles = files
-        .filter(file => /^escena_\d+_final\.md$/.test(file))
+        .filter(file => {
+            if (capNum === 0) {
+                return file === 'prologo_final.md';
+            }
+            return /^escena_\d+_final\.md$/.test(file);
+        })
         .map(file => {
-            const num = parseInt(file.match(/\d+/)[0], 10);
+            const num = file === 'prologo_final.md' ? 0 : parseInt(file.match(/\d+/)[0], 10);
             return { name: file, num, path: path.join(capFolder, file) };
         })
         .sort((a, b) => a.num - b.num);
 
     if (sceneFiles.length === 0) {
-        console.warn(`\x1b[33mAdvertencia: No se encontraron escenas finales (escena_*_final.md) para el Capítulo ${capNum}.\x1b[0m`);
+        console.warn(`\x1b[33mAdvertencia: No se encontraron escenas finales (escena_*_final.md o prologo_final.md) para el Capítulo ${capNum}.\x1b[0m`);
         return null;
     }
 
@@ -144,7 +156,11 @@ function compileManuscript() {
             .replace(/[^a-z0-9\s-]/g, '')
             .trim()
             .replace(/\s+/g, '-');
-        manuscriptText += `${cap.capNum}. [${cap.title}](#${anchor})\n`;
+        if (cap.capNum === 0) {
+            manuscriptText += `* [${cap.title}](#${anchor})\n`;
+        } else {
+            manuscriptText += `${cap.capNum}. [${cap.title}](#${anchor})\n`;
+        }
     });
 
     manuscriptText += `\n---\n\n`;
