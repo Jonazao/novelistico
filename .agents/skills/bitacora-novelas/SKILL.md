@@ -40,6 +40,9 @@ Al ser invocado para registrar o analizar un capítulo de la historia, sigue est
 
 ### 2. Rutas de Archivos y Persistencia (Importante)
 Cuando proceses el capítulo `[N]`:
+*   **Guardias de Inicialización:**
+    - Si el archivo central `bitacora_historia.md` no existe en la raíz, el agente debe crearlo copiando de forma autónoma el contenido de `.agents/templates/bitacora_historia.md` antes de registrar datos.
+    - Si el directorio `capitulos/capitulo_[N]/` o el archivo `capitulos/capitulo_[N]/bitacora_capitulo.md` no existen, crea el directorio e inicializa el archivo copiando la plantilla `.agents/templates/bitacora_capitulo.md` en la ruta correspondiente de forma autónoma.
 1.  **Bitácora Local:** Escribe/actualiza el archivo `capitulos/capitulo_[N]/bitacora_capitulo.md` con los hallazgos del capítulo usando la estructura anterior.
 2.  **Bitácora Histórica:** Concatenar o añadir la nueva sección de este capítulo al final de `bitacora_historia.md` en la raíz del workspace para mantener el registro unificado.
 3.  **Fidelidad al Texto:** Registra únicamente hechos explícitos o implícitos justificados por la narrativa. Evita especulaciones de trama futura fuera de "Misterios y Preguntas Abiertas".

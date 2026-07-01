@@ -64,6 +64,7 @@ Para acelerar tu interacción con el asistente y evitar escribir peticiones larg
 | **`!bitacora cap=[N]`** | Registra el resumen en `capitulos/capitulo_[N]/bitacora_capitulo.md` e `bitacora_historia.md` |
 | **`!prompt personaje=[Nombre]`** | Genera un prompt en inglés de Hoja de Modelo (Model Sheet) del personaje |
 | **`!prompt lugar=[Nombre]`** | Genera prompts en inglés para tomas en múltiples ángulos del lugar |
+| **`!compilar cap=[N]`** | Compila únicamente las escenas de un capítulo en `capitulo_[N]_completo.md` |
 | **`!compilar`** | Une y depura todas las escenas finales en `manuscrito_completo.md` |
 
 *Ejemplo de uso en el chat:* `!ritmo cap=2 esc=1`
