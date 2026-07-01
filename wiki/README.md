@@ -2,14 +2,25 @@
 
 Bienvenido al índice central de lore de la novela. Aquí se catalogan los personajes, lugares, organizaciones y objetos clave para mantener la consistencia narrativa y facilitar la generación de prompts visuales.
 
+- [Guía de Plantillas Estándar](plantillas.md) - *Instrucciones y formatos para el registro consistente de lore.*
+
 ## Personajes
-- [Orenz](personajes/orenz.md) - *Mago de la destrucción oscura y guerrero del País 7.*
-- [Jareth Reynolds](personajes/jareth_reynolds.md) - *Mago especialista en técnicas de reflexión táctica.*
-- [Aztra](personajes/aztra.md) - *General de operaciones tácticas del distrito de Eizenbert.*
-- [Leyn](personajes/leyn.md) - *Mago especialista en técnicas defensivas y segundo al mando.*
+- [Orenz](personajes/orenz.md) - *Mago de la destrucción oscura y guerrero del País 7 (Presente).*
+- [Orenz (12 años)](personajes/orenz_12.md) - *Orenz a los 12 años, lidiando con la distorsión de su maná de compresión.*
+- [Orenz (14 años)](personajes/orenz_14.md) - *Orenz a los 14 años, cadete del Escuadrón Táctico Especial.*
+- [Jareth Reynolds](personajes/jareth_reynolds.md) - *Mago especialista en técnicas de reflexión táctica (Presente).*
+- [Jareth Reynolds (12 años)](personajes/jareth_12.md) - *Jareth a los 12 años, integrándose a las prácticas con Leyn y Orenz.*
+- [Jareth Reynolds (14 años)](personajes/jareth_14.md) - *Jareth a los 14 años, cadete del Escuadrón Táctico Especial.*
+- [Aztra](personajes/aztra.md) - *General de operaciones tácticas del distrito de Eizenbert (Presente).*
+- [Aztra (20-22 años)](personajes/aztra_20.md) - *Aztra como Teniente e inspectora militar en los flashbacks.*
+- [Leyn](personajes/leyn.md) - *Mago especialista en técnicas defensivas y segundo al mando (Presente).*
+- [Leyn (27-29 años)](personajes/leyn_27.md) - *Leyn como Teniente e instructor militar en los flashbacks.*
 - [Kaelen](personajes/kaelen.md) - *Mago explorador de Eizenbert especialista en frecuencias y sismología.*
 - [Bubu](personajes/bubu.md) - *Investigadora espiritual y herborista que habita en la montaña Eyn.*
 - [Duo](personajes/duo.md) - *Ex-soldado veterano ermitaño de la tundra con magia temporal.*
+- [Clara](personajes/clara.md) - *Madre biológica de Orenz, forjadora del sur con afinidad de fuego (fallecida).*
+- [General Sanders](personajes/general_sanders.md) - *Comandante supremo de Eizenbert y tutor oficial de Orenz.*
+- [Varek](personajes/varek.md) - *Cadete de combate de Eizenbert en los flashbacks.*
 - [Madame Vespera](personajes/madame_vespera.md) - *Corredora de información y dueña de casino con magia de teletransportación.*
 - [Hombre Misterioso](personajes/hombre_misterioso.md) - *Enigmático conspirador que manipula los hilos políticos desde Gid.*
 - [Inquisidor Uriel](personajes/inquisidor_uriel.md) - *Inquisidor del Imperio de Solaria con magia de parálisis del Orden.*
@@ -17,6 +28,10 @@ Bienvenido al índice central de lore de la novela. Aquí se catalogan los perso
 
 ## Lugares
 - [Eizenbert](lugares/eizenbert.md) - *Ciudad capital del País 7, construida en forma de cono.*
+- [Garganta Seca](lugares/garganta_seca.md) - *Paso fronterizo árido del sur donde Clara huyó de la peste.*
+- [Colina del Norte](lugares/colina_norte.md) - *Loma boscosa fuera de la fortaleza donde Leyn entrenó a Orenz.*
+- [Cañón de Piedra Artificial](lugares/canon_artificial.md) - *Foso de entrenamiento simulado donde Jareth se unió a las prácticas.*
+- [Desfiladero Fronterizo](lugares/desfiladero_fronterizo.md) - *Cañón natural donde el Escuadrón defendió el convoy de carretas.*
 - [Montaña Eyn](lugares/montana_eyn.md) - *Montaña que alberga un manantial natural y la morada de Bubu.*
 - [Planta Principal de Melom](lugares/planta_melom.md) - *Instalación industrial y militar destruida durante la misión.*
 - [Bosque de Agujas](lugares/bosque_agujas.md) - *Bosque húmedo y gélido fronterizo con coníferas de metal y niebla baja.*
@@ -30,6 +45,7 @@ Bienvenido al índice central de lore de la novela. Aquí se catalogan los perso
 
 ## Organizaciones
 - [País 7 (Eizenbert)](organizaciones/pais_7_eizenbert.md) - *Potencia militar organizada bajo disciplina, mérito y un sistema cooperativo.*
+- [País 1](organizaciones/pais_1.md) - *Potencia militar hostil especializada en artillería e infantería de largo alcance.*
 - [País 4](organizaciones/pais_4.md) - *Nación soberana que alberga múltiples regiones con sus propios reyes.*
 - [Coalición de Nyl](organizaciones/coalicion_de_nyl.md) - *Una de las regiones más importantes y avanzadas del País 4.*
 - [Imperio de Solaria](organizaciones/imperio_solaria.md) - *Teocracia y potencia militar del sur orientada a la fe en el Orden.*
@@ -42,4 +58,4 @@ Bienvenido al índice central de lore de la novela. Aquí se catalogan los perso
 - [Cetro de Uriel](objetos/cetro_de_uriel.md) - *Cetro ceremonial que canaliza la parálisis del Orden, ahora quebrado.*
 - [Corsé de Cuero de Jareth](objetos/corse_de_cuero.md) - *Prenda de contención y estabilización ectoplásmica.*
 - [Diapasón de Kaelen](objetos/diapason_de_kaelen.md) - *Calibrador metálico de frecuencias sísmicas y vibratorias.*
-- [Daga Táctica de Orenz](objetos/daga_tactica_orenz.md) - *Daga de baja frecuencia para cortes sigilosos con maná oscuro.*
+- [Daga Táctica de Orenz](objetos/daga_tactica_orenz.md) - *Daga de dotación del escuadrón grabada con la runa circular.*
