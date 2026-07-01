@@ -2,7 +2,7 @@
 
 Bienvenido al índice central de lore de la novela. Aquí se catalogan los personajes, lugares, organizaciones y objetos clave para mantener la consistencia narrativa y facilitar la generación de prompts visuales.
 
-- [Guía de Plantillas Estándar](plantillas.md) - *Instrucciones y formatos para el registro consistente de lore.*
+- [Guía de Plantillas Estándar](../.agents/templates/wiki_plantillas.md) - *Instrucciones y formatos para el registro consistente de lore.*
 
 ## Personajes
 - [Orenz](personajes/orenz.md) - *Mago de la destrucción oscura y guerrero del País 7 (Presente).*
